@@ -1,2 +1,0 @@
-# SusanProject
-Created with CodeSandbox
