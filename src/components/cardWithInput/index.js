@@ -10,7 +10,7 @@ function MediaCard(props) {
     <Fragment>
       <div style={{ maxWidth: "300px", padding: "20px" }}>
         <RenderImage srcURL={IMAGE_API_URL + cardData.label} />
-        <MasterInput autocompleteJSON={autocompleteJSON}/>
+        <MasterInput cardData={cardData} autocompleteJSON={autocompleteJSON}/>
       </div>
     </Fragment>
   );
