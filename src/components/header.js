@@ -5,11 +5,33 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
-const styles = {
+import HomeIcon from "@material-ui/icons/Home";
+
+const styles = theme => ({
   root: {
     flexGrow: 1
   }
-};
+  // title: {
+  //   position: 'relative',
+  //   borderRadius: theme.shape.borderRadius,
+  //   marginRight: theme.spacing.unit * 2,
+  //   marginLeft: 0,
+  //   width: '100%',
+  //   [theme.breakpoints.up('sm')]: {
+  //     marginLeft: theme.spacing.unit * 3,
+  //     width: 'auto',
+  //   },
+  // },
+  // title: {
+  //   width: theme.spacing.unit * 9,
+  //   height: '100%',
+  //   position: 'absolute',
+  //   pointerEvents: 'none',
+  //   display: 'flex',
+  //   alignItems: 'center',
+  //   justifyContent: 'center',
+  // },
+});
 
 function AppHeader(props) {
   const { classes } = props;
@@ -19,8 +41,8 @@ function AppHeader(props) {
       <AppBar position="static" color="default">
         <Toolbar>
           <Link to="/">
-            <Typography variant="h6" color="inherit">
-              Lets Learn
+            <Typography variant="h3" className={classes.title}>
+              Lets Learn - ASL
             </Typography>
           </Link>
         </Toolbar>

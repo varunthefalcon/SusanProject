@@ -1,4 +1,4 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.CardWrapper {
+  max-width: "500px";
+  padding: 10px;
 }
