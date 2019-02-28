@@ -42,7 +42,7 @@ function AppHeader(props) {
         <Toolbar>
           <Link to="/">
             <Typography variant="h3" className={classes.title}>
-              Lets Learn - ASL
+              Lets Learn
             </Typography>
           </Link>
         </Toolbar>

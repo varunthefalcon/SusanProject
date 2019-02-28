@@ -3,5 +3,7 @@ export const PRACTICE_SENTENCES = [
   "My name is Susan",
   "I like reading",
   "Chocolates is my favourite",
-  "I wanna become a astronaut"
+  "I wanna become a astronaut",
+  "Iam 4 years old",
+  "I had pancakes for breakfast"
 ];
